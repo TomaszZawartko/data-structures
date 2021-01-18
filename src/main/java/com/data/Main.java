@@ -35,6 +35,6 @@ public class Main {
         final Printer printer = new Printer(root);
         printer.print();
         System.out.println("dupa1");
-
+        System.out.println("dupa2");
     }
 }
