@@ -4,15 +4,11 @@ import com.data.node.container.ArrayNode;
 import com.data.node.container.MapNode;
 import com.data.node.Node;
 import com.data.node.NodeFactory;
-import com.number.services.impl.FibonacciService;
 
 import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-
-        FibonacciService service = new FibonacciService();
-        System.out.println(service.getValue(10));
 
         final Node book1Name = NodeFactory.textNode("book1");
         final Node book1Price = NodeFactory.integerNode(10);
@@ -38,5 +34,8 @@ public class Main {
 
         final Printer printer = new Printer(root);
         printer.print();
+        System.out.println("dupa1");
+        System.out.println("dupa2");
+        System.out.println("dupa3");
     }
 }
