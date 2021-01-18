@@ -37,5 +37,7 @@ public class Main {
         System.out.println("dupa1");
         System.out.println("dupa2");
         System.out.println("dupa3");
+
+        System.out.println("dupa4");
     }
 }
