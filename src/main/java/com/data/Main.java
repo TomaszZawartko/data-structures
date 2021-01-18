@@ -40,5 +40,8 @@ public class Main {
 
         System.out.println("dupa4");
         System.out.println("dupa5");
+
+        System.out.println("dupa6");
+        System.out.println("dupa7");
     }
 }
